@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+databases
+aiosqlite
+cryptography
+jinja2
+
