@@ -13,9 +13,8 @@ When deploying the application , environmet variables can be set , for webserver
 In the certificates folder the application expects to find  certificate.pem and key.pem for https , otherwise a self signed certificate and key are generated using hostname as common name. 
 [![sharesecret worflow](https://raw.githubusercontent.com/gcasale82/sharesecret/main/share-secret-wf.jpg "sharesecret worflow")](https://raw.githubusercontent.com/gcasale82/sharesecret/main/share-secret-wf.jpg "sharesecret worflow")
 ## Containers
-Sharesecret can be deployed using docker or Kubernetes , the official container image can be found at [dockerhub repository][sharesecret-dockerhub].
-[sharesecret-dockerhub]: https://hub.docker.com/repository/docker/gcasale/sharesecret/general "dockerhub repository"
-Below an example for deploying the container with ip address 192.168.1.2 and TCP port 8443 : 
+Sharesecret can be deployed using docker or Kubernetes , the official container image can be found at [dockerhub repository](https://hub.docker.com/repository/docker/gcasale/sharesecret/general "dockerhub repository")
+. Below an example for deploying the container with ip address 192.168.1.2 and TCP port 8443 : 
 ### Docker
     docker run -e hosturl=192.168.1.2 -e localport=8443 -p 8443:8443 sharesecret:latest
 [![docker](https://github.com/gcasale82/sharesecret/blob/main/sharesecret1.jpg?raw=true "docker")](https://github.com/gcasale82/sharesecret/blob/main/sharesecret1.jpg?raw=true "docker")
