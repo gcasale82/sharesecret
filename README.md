@@ -25,7 +25,5 @@ Below an example for deploying the container with ip address 192.168.1.2 and TCP
     kubectl run sharesecret-app --image=gcasale/sharesecret:latest --env="hosturl=192.168.1.2" --env="localport=8443"
 [![kubernetes](https://github.com/gcasale82/sharesecret/blob/main/sharesecret2.jpg?raw=true "kubernetes")](https://github.com/gcasale82/sharesecret/blob/main/sharesecret2.jpg?raw=truetp:// "kubernetes")
 ## Demo
-A sharesecret app demo is hosted on deta.io  at this [url][url-deta] .
-[url-deta]: https://ijimdb.deta.dev/start "url"
-The only difference with real app is that this one is using [Deta base][detabase] and not SQLite as database.
-[detabase]: https://docs.deta.sh/docs/base/about/ "Deta base"
+A sharesecret app demo is hosted on deta.io  at this [url](https://ijimdb.deta.dev/start "url") .
+The only difference with real app is that this one is using [Deta base](https://docs.deta.sh/docs/base/about/ "Deta base") and not SQLite as database.
